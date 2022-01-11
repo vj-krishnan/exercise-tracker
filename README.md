@@ -21,7 +21,7 @@ Although the structure may initially seem like a tapestry, in the end, it all wo
 ## Design
 Although the design is not ostentatious, it is simple and pretty in its own right. The ribbon at the top of the dashboard contains links to all tabs. The navigation feature, which is snappy and quick, is achieved with the help of React Router. Each tab contains text boxes, drop-down lists, and buttons to faciliate the standrd CRUD operations. 
 
-##Tech Stack
+## Tech Stack
 - MongoDB
 - Express
 - React
