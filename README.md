@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EXERCISE TRACKER
+## Description
+This is an application built for health nuts who come in all shapes and sizes. It allows users to create, edit, track, and delete exercises and the logs associated with them.
 
-## Available Scripts
+## Overview of the Tech Stack
+The MERN stack, which is a popular stack of technologies for building a modern single-page application, was used to build this powerful application.
 
-In the project directory, you can run:
+The MERN stack consists of the following technologies:
+  - MongoDB: A document-based open source database
+  - Express: A web application framework for Node.js
+  - React: A JavaScript front-end library for building user interfaces
+  - Node.js: JavaScript run-time environment that executes JavaScript code outside of a browser (such as a server)
+  
+Although the MongoDB database can be hosted locally, I took the liberty of using MongoDB Atlas as it is a multi-cloud data platform that simplifies deployment and management of databases. Please do not judge me because of my bizzare choices. After all, coding is convoluted enough as it is.
 
-### `npm start`
+## Functionality of the application
+The application allows new users to create a basic account and existing users to login with their credentials. The dashboard is intuitive and straightforward as it lists all existing exercises and their respective logs. The 'Create Exercise Log' tab prompts the user to enter an exercise of their choice along with its duration. Immediately after an exercise log is created, the user is directed to the 'Exercises' tab wherein all available exercises can be modified or deleted. Finally, as the name would suggest, the 'Create User' tab helps the user create an account.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Although the structure may initially seem like a tapestry, in the end, it all works out.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Design
+Although the design is not ostentatious, it is simple and pretty in its own right. The ribbon at the top of the dashboard contains links to all tabs. The navigation feature, which is snappy and quick, is achieved with the help of React Router. Each tab contains text boxes, drop-down lists, and buttons to faciliate the standrd CRUD operations. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+##Tech Stack
+- MongoDB
+- Express
+- React
+- Node.js
+- Packages, frameworks, and libraries such as React Router, Axios, Bootstrap, Nodemon, and MUI
